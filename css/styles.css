@@ -1,5 +1,12 @@
+
+@font-face {
+    font-family: 'ibm_3270medium';
+    src: url('3270-Medium 500.ttf');
+
+}
 body {
-  background-color: #EAF6F6;
+  font-family: 'ibm_3270medium';
+  background-color: hsl(232, 12%, 22%);
 }
 
 hr {
@@ -16,4 +23,20 @@ h1 {
 
 h2 {
   color: #66BFBF
+}
+
+p {
+  color: #DAA520;
+}
+
+li {
+  color: #DAA520;
+}
+
+table {
+  color: hsl(315, 81%, 44%);
+}
+
+thead {
+  color: #DAA520;
 }
