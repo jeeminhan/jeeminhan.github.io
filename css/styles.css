@@ -1,3 +1,7 @@
+.input {
+  text-align: center;
+}
+
 .jumbotron {
   background: url('backgroundimage.jpg') no-repeat center center fixed;
   padding-top: 20%;
@@ -8,8 +12,8 @@
 
 .jumbotron1 {
   background: url('backgroundimage.jpg') no-repeat center center fixed;
-  padding-top: 10%;
-  padding-bottom: 5%;
+  padding-top: 14%;
+  padding-bottom: 10%;
   background-size: cover;
   border-radius: 0;
 }
@@ -20,15 +24,21 @@
 
 }
 
-/* img {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
-/* .centered {
+.centered {
   text-align: center;
-} */
+  list-style-type: none;
+}
+
+.table-center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .link {
   color: #4169e1;
