@@ -1,3 +1,18 @@
+.jumbotron {
+  background: url('backgroundimage.jpg') no-repeat center center fixed;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  background-size: cover;
+  border-radius: 0;
+}
+
+.jumbotron1 {
+  background: url('backgroundimage.jpg') no-repeat center center fixed;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  background-size: cover;
+  border-radius: 0;
+}
 
 @font-face {
     font-family: 'ibm_3270medium';
@@ -27,13 +42,13 @@
 
 body {
   font-family: 'ibm_3270medium';
-  background-color: hsl(232, 12%, 22%)/*black*/;
+  background-color: #e9eff6/*hsl(232, 12%, 22%)/*black*/;
 }
 
 hr {
   border-style: none;
   border-top-style:ridge;
-  border-color: grey;
+  /* border-color: grey; */
   border-width: 5px;
   width: 12%
 
@@ -43,7 +58,8 @@ h1 {
   /* margin: auto;
   text-align: center;
   width: 10%; */
-  color:  #66BFBF;
+  color:  white;
+  text-shadow: 2px 2px grey;
 }
 
 h2 {
@@ -55,7 +71,7 @@ h2 {
 p {
   color: #DAA520;
   /* text-align: center; */
-  box-shadow: 5px 5px hsl(232, 12%, 40%);
+  /* box-shadow: 5px 5px hsl(232, 12%, 40%); */
 }
 
 li {
@@ -76,4 +92,19 @@ thead {
 ul {
   /* width: 10%;
   margin: auto; */
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
