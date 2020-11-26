@@ -43,7 +43,7 @@ function responseReceivedHandler() {
    if (this.status === 200) {
       weatherInfo.innerHTML =
        "<p>Current temp: " + this.response.main.temp + " &deg;F</p>" +
-       "<p>Desc: " + this.response.weather[0].description + "</p>" +
+       "<p>Description: " + this.response.weather[0].description + "</p>" +
        "<p>Humidity: " + this.response.main.humidity + "%</p>";
    } else {
       weatherInfo.innerHTML = "Weather data unavailable. Please enter valid zip code.";
