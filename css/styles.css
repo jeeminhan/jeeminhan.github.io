@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.shadow {
+  text-shadow: .5px .5px white;
+}
+
 .jumbotron {
   background: url('backgroundimage.jpg') no-repeat center center fixed;
   padding-top: 20%;
@@ -19,9 +23,8 @@
 }
 
 @font-face {
-    font-family: 'ibm_3270medium';
-    src: url('3270-Medium 500.ttf');
-
+  font-family: 'ibm_3270medium';
+  src: url('3270-Medium 500.ttf');
 }
 
 img {
@@ -49,26 +52,26 @@ img {
   display: flex;
   justify-content: center;
 } */
-
 body {
   font-family: 'ibm_3270medium';
-  background-color: #e9eff6/*hsl(232, 12%, 22%)/*black*/;
+  background-color: #e9eff6
+    /*hsl(232, 12%, 22%)/*black*/
+  ;
 }
 
 hr {
   border-style: none;
-  border-top-style:ridge;
+  border-top-style: ridge;
   /* border-color: grey; */
   border-width: 5px;
   width: 12%
-
 }
 
 h1 {
   /* margin: auto;
   text-align: center;
   width: 10%; */
-  color:  white;
+  color: white;
   text-shadow: 2px 2px grey;
 }
 
@@ -102,19 +105,4 @@ thead {
 ul {
   /* width: 10%;
   margin: auto; */
-}
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
 }

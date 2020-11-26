@@ -1,4 +1,29 @@
-getWeather(77840);
+
+
+
+// var input = document.getElementById("inputText");
+// input.addEventListener("keyup", function(event) {
+//   if (event.keycode === 13) {
+//     event.preventDefault();
+//
+//   }
+// })
+
+const buttonElement = document.getElementById('btn');
+
+buttonElement.addEventListener('click', function(event) {
+  var zip = document.getElementById('inputTxt').value;
+  getWeather(zip);
+})
+
+
+
+
+
+
+
+
+
 
 function getWeather(zip) {
    var endpoint = "https://api.openweathermap.org/data/2.5/weather";
@@ -21,6 +46,6 @@ function responseReceivedHandler() {
        "<p>Desc: " + this.response.weather[0].description + "</p>" +
        "<p>Humidity: " + this.response.main.humidity + "%</p>";
    } else {
-      weatherInfo.innerHTML = "Weather data unavailable.";
+      weatherInfo.innerHTML = "Weather data unavailable. Please enter valid zip code.";
    }
 }
